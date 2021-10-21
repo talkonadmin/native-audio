@@ -221,12 +221,12 @@ preload(options: PreloadOptions) => Promise<void>
 ### play(...)
 
 ```typescript
-play(options: { assetId: string; time: number; }) => Promise<void>
+play(options: { assetId: string; time?: number; }) => Promise<void>
 ```
 
-| Param         | Type                                            |
-| ------------- | ----------------------------------------------- |
-| **`options`** | <code>{ assetId: string; time: number; }</code> |
+| Param         | Type                                             |
+| ------------- | ------------------------------------------------ |
+| **`options`** | <code>{ assetId: string; time?: number; }</code> |
 
 --------------------
 
